@@ -9,17 +9,19 @@
 
 ## Windows Disk Cleanup Tool
 
+![AvailableCleanUpItems](DiskCleanUpUtility/Files/AvailableCleanUpItems.png)
+
+![ChosenCleanUpItems](DiskCleanUpUtility/Files/ChosenCleanUpItems.png)
 
 ## Architecture – Workflow
 ![DiskCleanUpUtilityWorkflow](DiskCleanUpUtility/Files/DiskCleanUpUtilityWorkflow.jpg)
 
-
 ## Setup
 
-  ### Package Properties via Policy Manager
+### Package Properties via Policy Manager
  - start.schedule,http://Transmitter:5282/MarimbaDiskCleanUpUtility=every 1 days update every 720 minutes
  - start.schedule.blackoutexempt, http://Transmitter:5282/MarimbaDiskCleanUpUtility=true
  - update.schedule, http://Transmitter:5282/MarimbaDiskCleanUpUtility=every 1 days update at 4:00am
-
-  ### Debug Flag – Tuner Property
+ 
+### Debug Flag – Tuner Property
 marimba. diskcleanuputility.debug.enabled=true/false
