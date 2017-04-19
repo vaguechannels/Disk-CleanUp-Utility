@@ -36,4 +36,4 @@
 ***
 
 ### Debug Flag – Tuner Property
-marimba. diskcleanuputility.debug.enabled=true/false
+marimba.diskcleanuputility.debug.enabled=true/false
