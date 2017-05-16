@@ -251,6 +251,7 @@ public class DiskCleanUpUtility extends SimpleFileVisitor<Path> implements IAppl
 	        
 	        regResult = new ArrayList(Arrays.asList(out.split("\t")));
 	        if(System.getProperty("os.name").equals("Windows 7"))	{	regResult = new ArrayList(Arrays.asList(out.split(" ")));	}
+		if(System.getProperty("os.name").equals("Windows 10"))	{	regResult = new ArrayList(Arrays.asList(out.split(" ")));	}
 	        
 	        for (int i = 0; i<regResult.size(); i++) 
 			{
